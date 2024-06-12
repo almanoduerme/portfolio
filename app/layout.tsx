@@ -8,7 +8,7 @@ import "./globals.css";
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cx(`${GeistSans.className} w-full sm:w-10/12 md:w-10/12 lg:w-8/12 xl:w-6/12 mx-auto min-h-screen flex flex-col border-l-2 border-r-2 px-28 pt-8`)}>
+      <body className={cx(`${GeistSans.className} w-full sm:w-10/12 md:w-10/12 lg:w-8/12 xl:w-6/12 mx-auto min-h-screen flex flex-col border-l-2 border-r-2 pt-8 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-28`)}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <Header />
           <main className="flex-grow">

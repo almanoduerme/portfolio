@@ -49,6 +49,15 @@
   }
 }
 
+@media (max-width: 576px) {
+  body {
+      width: 98%;
+      padding: 0;
+      margin: 0 auto; /* Para centrar horizontalmente */
+      border-left: none;
+      border-right: none;
+  }
+}
 
 @layer base {
   * {

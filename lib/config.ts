@@ -41,7 +41,7 @@ interface IConfig {
 export const config: IConfig = {
   name: "Nahuel Gómez",
   welcome: "Hey there 👋🏽",
-  bio: "I'm Full Stack Developer based in Buenos Aires, Argentina. I have a passion for web development and love to create new things. I'm always looking for new challenges and opportunities to grow as a professional.",
+  bio: `I'm Full Stack Developer based in Buenos Aires, Argentina. I have a passion for web development and love to create new things. I'm always looking for new challenges and opportunities to grow as a professional.`,
   social: {
     github: "almanoduerme",
     x: "almanoduerme",
