@@ -9,9 +9,7 @@ export default function Header() {
         <Link href="/" className="text-3xl font-bold hover:text-orange-500">
           {config.name}
         </Link>
-
           <p className="font-ligh text-sm">EN / ES</p>
-
       </div>
 
       <p className="text-md text-muted-foreground leading-tight font-light mt-1">
